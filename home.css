@@ -1,0 +1,212 @@
+.intro {
+    height: 70vh;
+    background: url(background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    position: fixed;
+    background: #000;
+    opacity: 0.6;
+    height: 40px;
+    width: 70vh;
+}
+
+nav li {
+    display: inline;
+    padding: 1em 4em;
+}
+
+li a {
+    position: fixed;
+    font-size: 20px;
+    color: #fefcfd;
+    font-family: sans-serif;
+}
+
+nav a:hover {
+    color: #fefcfd;
+    text-decoration: none;
+}
+
+.david {
+    text-align: right;
+    position: absolute;
+    bottom: 340px;
+    right: 40px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fefcfd;
+}
+
+.webdeveloper {
+    font-size: 70px;
+    color: #ff0000;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0.2em;
+}
+
+
+/** pag 2**/
+
+.whoim {
+    background: #fefcfd;
+}
+
+.whoim h2 {
+    margin: 0 0 1em;
+    margin-top: 0px;
+    font-size: 70px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fefcfd;
+}
+
+.box {
+    background-image: url(box.jpg);
+    width: 90%;
+    margin: 8% 2%;
+    padding: 150px;
+    box-sizing: border-box;
+    border: 6px solid #ced0ce;
+    border-radius: 20px;
+    margin-left: 6em;
+    background-repeat: no-repeat;
+}
+
+.box img {
+    width: 300px;
+    clip-path: circle();
+    margin-top: -6em;
+    float: right;
+    margin-left: 2em;
+}
+
+.whoim p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #fefcfe;
+}
+
+.eusou::first-letter {
+    font-size: 200%;
+    color: #ff0000;
+}
+
+
+/** pag 3**/
+
+.pro {
+    background-image: url(projectsimg.png);
+    margin-top: 200px;
+    background-size: auto;
+    height: 950px;
+}
+
+.pro h2 {
+    position: relative;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    padding: 80px;
+    color: #fefcfe;
+}
+
+.computer img {
+    margin-top: -6em;
+    margin-left: 4em;
+}
+
+.computer {
+    background: #ffffff;
+    width: 90%;
+    margin: 0%;
+    padding: 100px;
+    box-sizing: border-box;
+    border: 6px solid #ced0ce;
+    border-radius: 20px;
+    margin-left: 6em;
+    height: 600px;
+}
+
+
+/** pag 4**/
+
+.contact h2 {
+    margin-top: 2em;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.contact {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding: 0px 850px;
+}
+
+.cont {
+    font-size: 40px;
+    padding: -1em 0;
+}
+
+.comuni {
+    margin-left: -30em;
+}
+
+.email {
+    width: 130px;
+    margin-left: -6.5em;
+    margin-bottom: -6em;
+}
+
+.linked {
+    width: 180px;
+    margin-left: -6.5em;
+    margin-bottom: -18em;
+}
+
+.git {
+    width: 220px;
+    margin-bottom: 2em;
+}
+
+.name {
+    float: right;
+    position: relative;
+    top: -150px;
+    left: 60px;
+}
+
+.input {
+    width: 50%;
+    /*lagura com proporcao da tela */
+    padding: 15px 0;
+    /* espaco enterno ex botao */
+    background: #ff0000;
+    /*cor de fundo*/
+    color: white;
+    ;
+    /*cor do conteudo*/
+    font-weight: bold;
+    /* tipo de letra*/
+    font-size: 25px;
+    /*tamanho da letra*/
+    border: none;
+    /*tirar a borda*/
+    border-radius: 5px;
+    /*arredondar a borda*/
+    transition: 1s all;
+    /*tempo de transicao de cores*/
+    cursor: pointer;
+}
