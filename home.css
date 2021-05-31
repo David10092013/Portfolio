@@ -6,14 +6,16 @@
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
+    border-radius: 20px;
 }
 
 nav {
     position: fixed;
     background: #000;
-    opacity: 0.6;
+    opacity: 0.7;
     height: 40px;
-    width: 70vh;
+    width: 203vh;
+    border-radius: 20px;
 }
 
 nav li {
@@ -33,6 +35,27 @@ nav a:hover {
     text-decoration: none;
 }
 
+.comuni {
+  position: fixed; 
+margin-left: 1750px;
+margin-top: -0.5%;
+
+}
+.email {
+
+    width: 35px;
+ 
+}
+
+.linked {
+    width:25px;
+   
+}
+
+.git {
+    width: 25px;
+   
+}
 .david {
     text-align: right;
     position: absolute;
@@ -70,14 +93,15 @@ nav a:hover {
 
 .box {
     background-image: url(box.jpg);
-    width: 90%;
+    width: 100%;
     margin: 8% 2%;
     padding: 150px;
     box-sizing: border-box;
     border: 6px solid #ced0ce;
     border-radius: 20px;
-    margin-left: 6em;
+    margin-left: 0;
     background-repeat: no-repeat;
+    
 }
 
 .box img {
@@ -86,10 +110,11 @@ nav a:hover {
     margin-top: -6em;
     float: right;
     margin-left: 2em;
+    margin-top: 1.6em;
 }
 
 .whoim p {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -109,6 +134,7 @@ nav a:hover {
     margin-top: 200px;
     background-size: auto;
     height: 950px;
+    border-radius: 20px;
 }
 
 .pro h2 {
@@ -140,63 +166,70 @@ nav a:hover {
 
 /** pag 4**/
 
-.contact h2 {
-    margin-top: 2em;
-    font-size: 70px;
-    text-align: center;
-    font-weight: bold;
-    font-family: sans-serif;
+
+.collapsible{
+width: 60px;
+height:60px ;
+color:white;
+background-color: black;
+font-size: 40px;
+border-radius: 50%;
+
+}
+.collapsible:hover{
+background-color: #ced0ce;
+
 }
 
-.contact {
-    font-size: 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    padding: 0px 850px;
+.box2{position: relative; 
+    background-color: black;
+    margin-left:35% ;
+    width: 600px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border: 6px solid #ced0ce;
+    border-radius: 20px;
+    transition: flex 0.7s ease-in;
+  
 }
+
 
 .cont {
-    font-size: 40px;
-    padding: -1em 0;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color:#fefcfe;
+    text-align: center;
+    margin-top:100px; 
+     height: 30vh;
+    background-image: url(contact.png);
+    border-radius: 20px;
 }
 
-.comuni {
-    margin-left: -30em;
-}
 
-.email {
-    width: 130px;
-    margin-left: -6.5em;
-    margin-bottom: -6em;
-}
 
-.linked {
-    width: 180px;
-    margin-left: -6.5em;
-    margin-bottom: -18em;
-}
-
-.git {
-    width: 220px;
-    margin-bottom: 2em;
-}
 
 .name {
-    float: right;
-    position: relative;
-    top: -150px;
-    left: 60px;
+  
+   font-size: 20px; 
+   font-family: 'Lato', sans-serif;
+   font-weight: bold;
+   color: #fefcfe;
+   margin-left: 20px;
+   text-align: center;
+
+   margin-top: 40px;
+   
 }
 
 .input {
-    width: 50%;
+    width: 40%;
     /*lagura com proporcao da tela */
     padding: 15px 0;
     /* espaco enterno ex botao */
     background: #ff0000;
     /*cor de fundo*/
     color: white;
-    ;
     /*cor do conteudo*/
     font-weight: bold;
     /* tipo de letra*/
@@ -209,4 +242,12 @@ nav a:hover {
     transition: 1s all;
     /*tempo de transicao de cores*/
     cursor: pointer;
+}
+
+
+.footer{
+
+ 
+
+    
 }
