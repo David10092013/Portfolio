@@ -1,14 +1,14 @@
-const collapse = document.getElementsByClassName("box2")
-for(let i = 0; i < collapse; i++){
-collapse[i].addEventListener("click",function(){
-    this.classList.toggle("active")
-    let box2 = this.nextElementSibiling
-    if(box2.style.display==="block"){
-        box2.style.display=""
-    }
-    else{
-        box2.style.display ==="block"
-    }
-})
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var box2 = this.nextElementSibling;
+    if (box2.style.display === "block") {
+      box2.style.display = "none";
+    } else {
+      box2.style.display = "block";
+    }
+  });
 }

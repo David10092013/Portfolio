@@ -176,24 +176,10 @@ font-size: 40px;
 border-radius: 50%;
 
 }
-.collapsible:hover{
+.active,.collapsible:hover{
 background-color: #ced0ce;
 
 }
-
-.box2{position: relative; 
-    background-color: black;
-    margin-left:35% ;
-    width: 600px;
-    margin-top: 100px;
-    box-sizing: border-box;
-    border: 6px solid #ced0ce;
-    border-radius: 20px;
-    transition: flex 0.7s ease-in;
-  
-}
-
-
 .cont {
     font-size: 60px;
     font-family: 'Lato', sans-serif;
@@ -201,12 +187,26 @@ background-color: #ced0ce;
     color:#fefcfe;
     text-align: center;
     margin-top:100px; 
-     height: 30vh;
+    height: 40vh;
     background-image: url(contact.png);
     border-radius: 20px;
+ 
 }
+    
 
+.box2{position: relative; 
+    background-color: black;
+    margin-left:35% ;
+    width: 550px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border: 6px solid #ced0ce;
+    border-radius: 20px;
+    display: flex;
+    height: 600px;
+   
 
+}
 
 
 .name {
@@ -215,17 +215,18 @@ background-color: #ced0ce;
    font-family: 'Lato', sans-serif;
    font-weight: bold;
    color: #fefcfe;
-   margin-left: 20px;
-   text-align: center;
-
-   margin-top: 40px;
-   
+    margin:18vh;
+    line-height: 1;
+    text-align: right;
+    margin-top: 20px;
+    
 }
 
 .input {
-    width: 40%;
+    margin: 0px 60px ;
+    width: 50%;
     /*lagura com proporcao da tela */
-    padding: 15px 0;
+    padding: 10px 0;
     /* espaco enterno ex botao */
     background: #ff0000;
     /*cor de fundo*/
@@ -242,12 +243,7 @@ background-color: #ced0ce;
     transition: 1s all;
     /*tempo de transicao de cores*/
     cursor: pointer;
-}
-
-
-.footer{
-
- 
-
     
 }
+
+
