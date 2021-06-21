@@ -6,7 +6,7 @@ body{background: #283048;  /* fallback for old browsers */
 
 
 .intro {
-  height: 100vh;
+  height: 102vh;
   background: url(background.png);
   background-size: cover;
   display: flex;
@@ -20,7 +20,7 @@ nav {
   position: fixed;
   background: #000;
   opacity: 0.7;
-  height: 40px;
+  height: 32px;
   width: 210vh;
   
 }
@@ -32,9 +32,10 @@ nav li {
 
 li a {
   position: fixed;
-  font-size: 25px;
+  font-size: 18px;
   color: #fefcfd;
-  font-family:'Merriweather', serif;;
+  font-family: 'PT Serif', serif;
+  margin-top: 5px;
 }
 
 nav a:hover {
@@ -63,15 +64,15 @@ nav a:hover {
   position: absolute;
   bottom: 340px;
   right: 30px;
-  font-size: 55px;
-  font-family: 'Merriweather', serif;;
+  font-size: 35px;
+  font-family: 'PT Serif', serif;
   font-weight: bold;
   color: #fefcfd;
 }
 
 .webdeveloper {
-  font-size: 50px;
-  font-family: 'Merriweather', serif;;
+  font-size: 30px;
+  font-family: 'PT Serif', serif;
   margin-top: 0.2em;
 }
 
@@ -87,9 +88,9 @@ background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, F
 .whoim h2 {
   margin: 0 0 1em;
   margin-top: 0px;
-  font-size: 70px;
+  font-size: 35px;
   text-align: center;
-  font-family: 'Merriweather', serif;;
+  ffont-family: 'PT Serif', serif;
   font-weight: bold;
   color: #fefcfd;
 }
@@ -102,7 +103,7 @@ background-image: url(box.jpg);
   padding: 150px;
   box-sizing: border-box;
   margin-left: 0;
-  background-repeat: no-repeat;
+ 
 }
 
 .box img {
@@ -111,19 +112,19 @@ background-image: url(box.jpg);
   margin-top: -6em;
   float: right;
   margin-left: 2em;
-  margin-top: 1.6em;
+  margin-top: 0.5em;
 }
 
 .whoim p {
   text-align: left;
-  font-size: 30px;
-  font-family:'Merriweather', serif;;
+  font-size: 22px;
+  font-family: 'PT Serif', serif;
   font-weight: bold;
   color: #fefcfe;
 }
 
 .eusou::first-letter {
-  font-size: 200%;
+  font-size: 150%;
 }
 
 /** pag 3**/
@@ -138,15 +139,16 @@ background-image: url(box.jpg);
 
 .pro h2 {
   position: relative;
-  font-size: 70px;
+  font-size: 35px;
   text-align: center;
   font-weight: bold;
   padding: 80px;
   color: #fefcfe;
+  font-family: 'PT Serif', serif;
 }
 
 .computer img {
-  margin-top: -9em;
+  margin-top: -11em;
   margin-left: 1em;
   width: 1350px;
 }
@@ -180,8 +182,8 @@ background-image: url(box.jpg);
 }
 
 .cont {
-  font-size: 60px;
-  font-family:  'Merriweather', serif;;
+  font-size: 35px;
+  font-family: 'PT Serif', serif;
   font-weight: bold;
   color: #fefcfe;
   text-align: center;
@@ -201,12 +203,12 @@ background-image: url(box.jpg);
   border: 6px solid #ced0ce;
   border-radius: 20px;
   display: flex;
-  height: 600px;
+  height: 600px; 
 }
 
 .name {
-   font-size: 20px;
-  font-family:  'Merriweather', serif;;
+   font-size: 22px;
+  font-family: 'PT Serif', serif;
   font-weight: bold;
   color: #fefcfe;
   margin: 18vh 20vh;
