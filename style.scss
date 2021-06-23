@@ -1,4 +1,7 @@
 
+$h2color:rgb(0, 0, 0);
+
+
 body{background: white
 }
 
@@ -22,7 +25,7 @@ nav {
   opacity: 0.7;
   height: 32px;
   width: 210vh;
-  
+  z-index: 1;
 }
 
 nav li {
@@ -90,7 +93,7 @@ nav a:hover {
   text-align: center;
   font-family: 'PT Serif', serif;
   font-weight: bold;
-  color: #fefcfd;
+  color:$h2color;
 }
 
 .box {
@@ -103,7 +106,7 @@ background-image: url(box.jpg);
   margin-left: 0;
   
   background-color: white;
-  height: 100vh;
+  height: 70vh;
  
 }
 
@@ -115,6 +118,7 @@ background-image: url(box.jpg);
   float: right;
   margin-left: 2em;
   margin-top: -3em;
+  z-index: -999px;
 }
 
 .whoim p {
@@ -147,7 +151,7 @@ background-image: url(box.jpg);
   text-align: center;
   font-weight: bold;
   padding: 80px;
-  color: black;
+  color:$h2color;
 }
 
 .computer img {
@@ -188,12 +192,11 @@ background-image: url(box.jpg);
   font-size: 35px;
   font-family: 'PT Serif', serif;
   font-weight: bold;
-  color:black;
+  color: $h2color;
   text-align: center;
   margin-top: 100px;
   height: 40vh;
   background-image: url(contact.png);
-  
   background-color: white;
   height: 100vh;
 }
