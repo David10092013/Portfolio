@@ -1,7 +1,5 @@
 
-body{background: #283048;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body{background: white
 }
 
 
@@ -13,7 +11,9 @@ body{background: #283048;  /* fallback for old browsers */
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  border-radius: 20px;
+  
+  
+
 }
 
 nav {
@@ -60,30 +60,28 @@ nav a:hover {
   width: 25px;
 }
 .david {
-  text-align: right;
-  position: absolute;
-  bottom: 340px;
-  right: 30px;
+  
+ 
+  text-align: center;
   font-size: 35px;
   font-family: 'PT Serif', serif;
   font-weight: bold;
-  color: #fefcfd;
+  color: black;
+  position: absolute;
+  margin-top: -25%;
+  margin-left: 42%;
 }
 
 .webdeveloper {
   font-size: 30px;
   font-family: 'PT Serif', serif;
   margin-top: 0.2em;
+  color: #000;
 }
 
 /** pag 2**/
 
-.whoim {
-  background: #283048;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
 
 .whoim h2 {
   margin: 0 0 1em;
@@ -99,20 +97,24 @@ background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, F
 
 background-image: url(box.jpg);
   width: 100%;
-  margin: 8% 2%;
-  padding: 150px;
+  margin: 1% 2%;
+  padding: 370px;
   box-sizing: border-box;
   margin-left: 0;
+  
+  background-color: white;
+  height: 100vh;
  
 }
 
 .box img {
+ 
   width: 300px;
   clip-path: circle();
   margin-top: -6em;
   float: right;
   margin-left: 2em;
-  margin-top: 0.5em;
+  margin-top: -3em;
 }
 
 .whoim p {
@@ -120,7 +122,7 @@ background-image: url(box.jpg);
   font-size: 22px;
   font-family: 'PT Serif', serif;
   font-weight: bold;
-  color: #fefcfe;
+  color: black;
 }
 
 .eusou::first-letter {
@@ -134,17 +136,18 @@ background-image: url(box.jpg);
   margin-top: 200px;
   background-size: auto;
   height: 950px;
-  border-radius: 20px;
+  
+ 
 }
 
 .pro h2 {
+  font-family: 'PT Serif', serif;
   position: relative;
   font-size: 35px;
   text-align: center;
   font-weight: bold;
   padding: 80px;
-  color: #fefcfe;
-  font-family: 'PT Serif', serif;
+  color: black;
 }
 
 .computer img {
@@ -159,8 +162,8 @@ background-image: url(box.jpg);
   margin: 0%;
   padding: 100px;
   box-sizing: border-box;
-  border: 6px solid #ced0ce;
-  border-radius: 20px;
+  
+  
   margin-left: 6em;
   height: 600px;
 }
@@ -185,12 +188,14 @@ background-image: url(box.jpg);
   font-size: 35px;
   font-family: 'PT Serif', serif;
   font-weight: bold;
-  color: #fefcfe;
+  color:black;
   text-align: center;
   margin-top: 100px;
   height: 40vh;
   background-image: url(contact.png);
-  border-radius: 20px;
+  
+  background-color: white;
+  height: 100vh;
 }
 
 .box2 {
