@@ -10,39 +10,51 @@ body {
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
+  
 }
 
 nav {
+  position: flex;
   position: fixed;
   background: #000;
   opacity: 0.7;
-  height: 32px;
-  width: 210vh;
+ width: 100%;
   z-index: 1;
+ 
 }
 
-nav li {
-  display: inline;
-  padding: 4em 5em;
+nav ul{
+  display: flex ;
 }
 
-li a {
-  position: fixed;
-  font-size: 18px;
-  color: #fefcfd;
-  font-family: "PT Serif", serif;
-  margin-top: 5px;
+
+nav ul li {
+  display: flex;
+text-align: center;
+width: 100%;
+
+}
+
+nav ul li a{
+display: inline-block;
+padding: 10px 30px;
+width: 100%;
+text-decoration: none;
+color: white;
+font-size: 18px;
+font-family: "PT Serif", serif;
+
 }
 
 nav a:hover {
-  color: #fefcfd;
+  color:beige;
   text-decoration: none;
 }
 
 .comuni {
   position: fixed;
-  margin-left: 1750px;
-  margin-top: -0.5%;
+  margin-top: -30px;
+  
 }
 
 .email {
@@ -59,13 +71,12 @@ nav a:hover {
 
 .david {
   text-align: center;
-  font-size: 35px;
+  font-size: 50px;
   font-family: "PT Serif", serif;
   font-weight: bold;
   color: black;
-  position: absolute;
-  margin-top: -25%;
-  margin-left: 42%;
+
+
 }
 
 .webdeveloper {
@@ -87,6 +98,7 @@ nav a:hover {
 }
 
 .box {
+  
   background-image: url(box.jpg);
   width: 100%;
   margin: 1% 2%;
@@ -100,12 +112,14 @@ nav a:hover {
 .box img {
   width: 300px;
   -webkit-clip-path: circle();
-          clip-path: circle();
+   clip-path: circle();
   margin-top: -6em;
   float: right;
   margin-left: 2em;
   margin-top: -3em;
   z-index: -999px;
+  position: flex;
+  
 }
 
 .whoim p {
@@ -141,7 +155,8 @@ nav a:hover {
 .computer img {
   margin-top: -11em;
   margin-left: 1em;
-  width: 1350px;
+  width: 100%;
+  min-width: 300px
 }
 
 .computer {
@@ -164,8 +179,8 @@ nav a:hover {
   border-radius: 50%;
 }
 
-.active,
-.collapsible:hover {
+
+.active,.collapsible:hover {
   background-color: #ced0ce;
 }
 
@@ -228,3 +243,5 @@ nav a:hover {
   /*tempo de transicao de cores*/
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
+
+
