@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  
+  object-position: center;
 }
 
 nav {
@@ -18,70 +18,66 @@ nav {
   position: fixed;
   background: #000;
   opacity: 0.7;
- width: 100%;
+  width: 100%;
   z-index: 1;
- 
 }
 
-nav ul{
-  display: flex ;
+nav ul {
+  display: flex;
 }
-
 
 nav ul li {
   display: flex;
-text-align: center;
-width: 100%;
-
+  text-align: center;
+  width: 100%;
 }
 
-nav ul li a{
-display: inline-block;
-padding: 10px 30px;
-width: 100%;
-text-decoration: none;
-color: white;
-font-size: 18px;
-font-family: "PT Serif", serif;
-
+nav ul li a {
+  display: inline-block;
+  padding: 10px 30px;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: 'PT Serif', serif;
 }
 
 nav a:hover {
-  color:beige;
+  color: beige;
   text-decoration: none;
 }
 
 .comuni {
   position: fixed;
   margin-top: -30px;
-  
 }
 
 .email {
   width: 35px;
+  flex-wrap: wrap;
 }
 
 .linked {
   width: 25px;
+  flex-wrap: wrap;
 }
 
 .git {
   width: 25px;
+  flex-wrap: wrap;
 }
 
 .david {
   text-align: center;
   font-size: 50px;
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   font-weight: bold;
   color: black;
-
-
 }
 
 .webdeveloper {
   font-size: 30px;
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   margin-top: 0.2em;
   color: #000;
 }
@@ -92,13 +88,12 @@ nav a:hover {
   margin-top: 0px;
   font-size: 35px;
   text-align: center;
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   font-weight: bold;
   color: black;
 }
 
 .box {
-  
   background-image: url(box.jpg);
   width: 100%;
   margin: 1% 2%;
@@ -106,32 +101,115 @@ nav a:hover {
   box-sizing: border-box;
   margin-left: 0;
   background-color: white;
-  height: 70vh;
+  height: 40vh;
 }
 
 .box img {
   width: 300px;
   -webkit-clip-path: circle();
-   clip-path: circle();
+  clip-path: circle();
   margin-top: -6em;
   float: right;
   margin-left: 2em;
   margin-top: -3em;
   z-index: -999px;
   position: flex;
-  
 }
 
 .whoim p {
   text-align: left;
   font-size: 22px;
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   font-weight: bold;
   color: black;
 }
 
 .eusou::first-letter {
   font-size: 150%;
+}
+
+.skills {
+  background-image: url(box.jpg);
+  width: 100%;
+  margin: 1% 2%;
+  padding: 370px;
+  box-sizing: border-box;
+  margin-left: 0;
+  background-color: white;
+  height: 50vh;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+@keyframes load {
+  from {
+    width: 0%;
+  }
+}
+@-webkit-keyframes load {
+  from {
+    width: 0%;
+  }
+}
+@-moz-keyframes load {
+  from {
+    width: 0%;
+  }
+}
+@-o-keyframes load {
+  from {
+    width: 0%;
+  }
+}
+
+.bar {
+  background-color: #eee;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.bar::before {
+  content: attr(data-skill);
+  background-color: #ff5757;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.front::before {
+  background-color: #ff5757;
+}
+.bar.back::before {
+  background-color: #ff5757;
+}
+
+.bar.learning::before {
+  width: calc(50% - 10px);
+}
+.bar.basic::before {
+  width: calc(50% - 10px);
+}
+.bar.intermediate::before {
+  width: calc(50% - 10px);
+}
+.bar.advanced::before {
+  width: calc(20% - 10px);
+}
+.bar.expert::before {
+  width: calc(20% - 10px);
 }
 
 /** pag 3**/
@@ -143,7 +221,7 @@ nav a:hover {
 }
 
 .pro h2 {
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   position: relative;
   font-size: 35px;
   text-align: center;
@@ -156,7 +234,8 @@ nav a:hover {
   margin-top: -11em;
   margin-left: 1em;
   width: 100%;
-  min-width: 300px
+  min-width: 300px;
+  cursor: pointer;
 }
 
 .computer {
@@ -179,14 +258,14 @@ nav a:hover {
   border-radius: 50%;
 }
 
-
-.active,.collapsible:hover {
+.active,
+.collapsible:hover {
   background-color: #ced0ce;
 }
 
 .cont {
   font-size: 35px;
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   font-weight: bold;
   color: black;
   text-align: center;
@@ -212,7 +291,7 @@ nav a:hover {
 
 .name {
   font-size: 22px;
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   font-weight: bold;
   color: #fefcfe;
   margin: 18vh 20vh;
@@ -242,6 +321,4 @@ nav a:hover {
   transition: 1s all;
   /*tempo de transicao de cores*/
   cursor: pointer;
-}/*# sourceMappingURL=style.css.map */
-
-
+} /*# sourceMappingURL=style.css.map */

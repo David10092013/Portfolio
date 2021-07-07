@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Serif', serif;
+}
+
+body {
+  background-color: white;
+  background-image: url(contact.png);
+  background-position: block;
+}
+.main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.main h1 {
+  position: relative;
+  font-family: 'PT Serif', serif;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.main .gallery {
+  position: relative;
+  height: auto;
+  width: 90%;
+  margin: auto;
+  padding: 45px 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2vh;
+  grid-auto-flow: dense;
+}
+.main .gallery .img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px cornflowerblue;
+  border-radius: 2px;
+}
+.main .gallery .img:first-child {
+  grid-column-start: span 3;
+  grid-row-start: span 1;
+}
+
+.main .gallery .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.main .gallery .img:hover img {
+  filter: grayscale(0);
+}

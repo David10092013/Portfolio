@@ -1,22 +1,17 @@
+$h2color: rgb(0, 0, 0);
 
-$h2color:rgb(0, 0, 0);
-
-
-body{background: white
+body {
+  background: white;
 }
-
 
 .intro {
   height: 102vh;
   background: url(background.png);
-  background-size: cover;
+  background-size: cover auto;
   display: flex;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  
-  
-
 }
 
 nav {
@@ -63,8 +58,6 @@ nav a:hover {
   width: 25px;
 }
 .david {
-  
- 
   text-align: center;
   font-size: 35px;
   font-family: 'PT Serif', serif;
@@ -84,8 +77,6 @@ nav a:hover {
 
 /** pag 2**/
 
-
-
 .whoim h2 {
   margin: 0 0 1em;
   margin-top: 0px;
@@ -93,25 +84,22 @@ nav a:hover {
   text-align: center;
   font-family: 'PT Serif', serif;
   font-weight: bold;
-  color:$h2color;
+  color: $h2color;
 }
 
 .box {
-
-background-image: url(box.jpg);
+  background-image: url(box.jpg);
   width: 100%;
   margin: 1% 2%;
   padding: 370px;
   box-sizing: border-box;
   margin-left: 0;
-  
+
   background-color: white;
   height: 70vh;
- 
 }
 
 .box img {
- 
   width: 300px;
   clip-path: circle();
   margin-top: -6em;
@@ -140,8 +128,6 @@ background-image: url(box.jpg);
   margin-top: 200px;
   background-size: auto;
   height: 950px;
-  
- 
 }
 
 .pro h2 {
@@ -151,7 +137,7 @@ background-image: url(box.jpg);
   text-align: center;
   font-weight: bold;
   padding: 80px;
-  color:$h2color;
+  color: $h2color;
 }
 
 .computer img {
@@ -166,8 +152,7 @@ background-image: url(box.jpg);
   margin: 0%;
   padding: 100px;
   box-sizing: border-box;
-  
-  
+
   margin-left: 6em;
   height: 600px;
 }
@@ -211,11 +196,11 @@ background-image: url(box.jpg);
   border: 6px solid #ced0ce;
   border-radius: 20px;
   display: flex;
-  height: 650px; 
+  height: 650px;
 }
 
 .name {
-   font-size: 22px;
+  font-size: 22px;
   font-family: 'PT Serif', serif;
   font-weight: bold;
   color: #fefcfe;
@@ -231,7 +216,7 @@ background-image: url(box.jpg);
   /*lagura com proporcao da tela */
   padding: 10px 0;
   /* espaco enterno ex botao */
-  background:#525b60 ;
+  background: #525b60;
   /*cor de fundo*/
   color: white;
   /*cor do conteudo*/
