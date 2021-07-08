@@ -1,16 +1,50 @@
+* {
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  margin: 0px;
+  font-weight: 300;
+}
+
 body {
   background: white;
 }
 
-.intro {
-  height: 102vh;
-  background: url(background.png);
+.background img {
+  width: 100%;
+  height: 90%;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-repeat: no-repeat;
-  object-position: center;
+  background-position: center center;
+  margin: auto;
+  position: relative;
+}
+
+.background .david p{
+  position: absolute;
+  text-align: center;
+  font-size: 45px;
+  top: 45%;
+  left: 45%;
+  font-weight: 300;
+  
+}
+.david p::first-letter{
+  font-size: 100px;
+}
+
+
+
+
+.webdeveloper p {
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+  top: 55%;
+  left: 45%;
+  font-weight: 300;
+}
+.webdeveloper p::first-line{
+  color: #ff5757;
 }
 
 nav {
@@ -40,6 +74,7 @@ nav ul li a {
   color: white;
   font-size: 18px;
   font-family: 'PT Serif', serif;
+  font-weight: 300;
 }
 
 nav a:hover {
@@ -67,29 +102,41 @@ nav a:hover {
   flex-wrap: wrap;
 }
 
-.david {
-  text-align: center;
-  font-size: 50px;
+/** pag 2**/
+.infor h2{
+
+  margin: 0 0 1em;
+  margin-top: 0px;
+  font-size: 35px;
+  text-align:center;
   font-family: 'PT Serif', serif;
-  font-weight: bold;
+  font-weight: 300;
   color: black;
 }
 
-.webdeveloper {
-  font-size: 30px;
-  font-family: 'PT Serif', serif;
-  margin-top: 0.2em;
-  color: #000;
-}
+.infor .box{
 
-/** pag 2**/
+  margin: 0 0 1em;
+  margin-top: 0px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-weight: 300;
+  color: black;
+ @media screen and (max-width 600px){
+   .infor,.box{
+    max-width: 800px;
+    font: size 5px;
+   }
+ }
+}
 .whoim h2 {
   margin: 0 0 1em;
   margin-top: 0px;
   font-size: 35px;
   text-align: center;
   font-family: 'PT Serif', serif;
-  font-weight: bold;
+  font-weight: 300;
   color: black;
 }
 
@@ -102,6 +149,7 @@ nav a:hover {
   margin-left: 0;
   background-color: white;
   height: 40vh;
+  min-width: 300px;
 }
 
 .box img {
@@ -114,13 +162,14 @@ nav a:hover {
   margin-top: -3em;
   z-index: -999px;
   position: flex;
+  max-width: 200px;
 }
 
 .whoim p {
   text-align: left;
   font-size: 22px;
   font-family: 'PT Serif', serif;
-  font-weight: bold;
+  font-weight: 300;
   color: black;
 }
 
@@ -128,6 +177,11 @@ nav a:hover {
   font-size: 150%;
 }
 
+/** pag 3**/
+
+.ski {
+  font-weight: 300;
+}
 .skills {
   background-image: url(box.jpg);
   width: 100%;
@@ -139,9 +193,6 @@ nav a:hover {
   height: 50vh;
 }
 
-body {
-  font-family: Helvetica, Arial, sans-serif;
-}
 .container {
   width: 50%;
   margin: 0 auto;
@@ -212,7 +263,7 @@ body {
   width: calc(20% - 10px);
 }
 
-/** pag 3**/
+/** pag 4**/
 .pro {
   background-image: url(projectsimg.png);
   margin-top: 200px;
@@ -225,30 +276,28 @@ body {
   position: relative;
   font-size: 35px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 300;
   padding: 80px;
-  color: black;
 }
 
 .computer img {
-  margin-top: -11em;
-  margin-left: 1em;
-  width: 100%;
+  position: absolute;
+  width: 80%;
   min-width: 300px;
   cursor: pointer;
+  align-items: baseline;
+  left: 10%;
 }
 
 .computer {
   background: #ffffff;
   width: 85%;
   margin: 0%;
-  padding: 100px;
+
   box-sizing: border-box;
-  margin-left: 6em;
-  height: 600px;
 }
 
-/** pag 4**/
+/** pag 5**/
 .collapsible {
   width: 60px;
   height: 60px;
@@ -266,8 +315,7 @@ body {
 .cont {
   font-size: 35px;
   font-family: 'PT Serif', serif;
-  font-weight: bold;
-  color: black;
+  font-weight: 300;
   text-align: center;
   margin-top: 100px;
   height: 40vh;
@@ -322,3 +370,86 @@ body {
   /*tempo de transicao de cores*/
   cursor: pointer;
 } /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 480px){
+
+	.background{
+    width: 100%;
+    height: 450px;
+  }
+
+
+
+
+  .name {
+    text-align: left;
+    margin-left: 90px;
+  }
+
+  .box2{
+
+    width: 350px;
+    margin-left: 15px;
+  
+  }
+
+  .computer img{
+    height: 300px;
+    width: 350px;
+    margin-left: -30px;
+  }
+
+	.skills{
+    margin-left: -250px;
+    margin-top: -330px;
+	}
+
+  .pro{
+    margin-top: -50px;
+  }
+
+
+ 
+
+  .git {
+    position: relative;
+    width: 25px;
+  margin-top: 40px;
+  
+  }
+
+
+  .eusou{
+    margin-left: -350px;
+    margin-top: -200px;
+  }
+
+  .box img{
+    width: 180px;
+    margin-top: -400px;
+    margin-right: 100px;
+  }
+
+  .cont{
+    margin-top: -260px;
+  }
+ 
+ .background .david p{
+   position: absolute;
+   font-size: 20px;
+   top: 20%;
+   left: 28%;
+   text-align: center;
+ }
+.background .david p::first-letter{
+  font-size: 50px;
+}
+  .webdeveloper p{
+    position: absolute;
+    left: 24%;
+    font-size: 20px;
+    text-align: left;
+    top: 28%;
+
+  }
+}
