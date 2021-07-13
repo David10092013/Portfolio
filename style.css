@@ -23,8 +23,8 @@ body {
   position: absolute;
   text-align: center;
   font-size: 45px;
-  top: 45%;
-  left: 45%;
+  top:40%;
+  left: 40%;
   font-weight: 300;
   
 }
@@ -39,8 +39,8 @@ body {
   position: absolute;
   text-align: center;
   font-size: 40px;
-  top: 55%;
-  left: 45%;
+  top: 50%;
+  left: 40%;
   font-weight: 300;
 }
 .webdeveloper p::first-line{
@@ -82,6 +82,21 @@ nav a:hover {
   text-decoration: none;
 }
 
+label #btn,label #cancel{
+color:#d31ad3;
+font-size: 30px;
+float: right;
+line-height:80px;
+margin-right: 40px;
+cursor:pointer;
+display: none;
+}
+#check{
+  display: none;
+}
+
+
+
 .comuni {
   position: fixed;
   margin-top: -30px;
@@ -103,7 +118,7 @@ nav a:hover {
 }
 
 /** pag 2**/
-.infor h2{
+.infor  h2{
 
   margin: 0 0 1em;
   margin-top: 0px;
@@ -283,7 +298,7 @@ nav a:hover {
 .computer img {
   position: absolute;
   width: 80%;
-  min-width: 300px;
+ 
   cursor: pointer;
   align-items: baseline;
   left: 10%;
@@ -326,7 +341,7 @@ nav a:hover {
 
 .box2 {
   position: relative;
-  background-color: #ff5757;
+  background-color:rgba(255, 34, 0, 0.774);
   margin-left: 35%;
   width: 550px;
   margin-top: 100px;
@@ -371,38 +386,81 @@ nav a:hover {
   cursor: pointer;
 } /*# sourceMappingURL=style.css.map */
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1200px) and (min-width:360px) {
 
+
+  lebel #btn{
+    display: block;
+  }
 	.background{
     width: 100%;
     height: 450px;
+    min-width: 375;
   }
-
-
-
-
-  .name {
-    text-align: left;
-    margin-left: 90px;
+  .background .david p{
+    
+    font-size: 20px;
+    top: 20%;
+    left: 24%;
+    text-align: center;
+    
   }
+ .background .david p::first-letter{
+   font-size: 50px;
+ }
+   .webdeveloper p{
+     
+     left: 24%;
+     font-size: 20px;
+     text-align: center;
+     top: 28%;
+     min-width: 30px;
+ 
+   }
 
-  .box2{
 
-    width: 350px;
-    margin-left: 15px;
+  .git {
+    position: relative;
+    width: 25px;
+  margin-top: 40px;
+ 
   
   }
-
-  .computer img{
-    height: 300px;
-    width: 350px;
-    margin-left: -30px;
+  .eusou{
+    position: absolute;
+    margin-left: -368px;
+    margin-top: -100px;
+    min-width: 370px;
+  }
+ .box img{
+    width: 180px;
+    margin-top: -400px;
+    margin-right:80px;
+    min-width: 150px;
   }
 
-	.skills{
-    margin-left: -250px;
-    margin-top: -330px;
+	.infor h2{
+    margin-top: -10px;
+
+
+  }
+
+  
+  .skills{
+   
+    margin-left: -200px;
+    margin-top: -250px;
+    min-width: 800px;
 	}
+  
+  .computer img{
+    height: 300px;
+    width: 650px;
+    margin-left: -30px;
+    max-width: 370px;
+  }
+  
+
 
   .pro{
     margin-top: -50px;
@@ -411,45 +469,32 @@ nav a:hover {
 
  
 
-  .git {
-    position: relative;
-    width: 25px;
-  margin-top: 40px;
-  
-  }
 
 
-  .eusou{
-    margin-left: -350px;
-    margin-top: -200px;
-  }
+  .box h2{
+  margin-bottom: 100px;
+  margin-left: -300px;
+  min-width: 300px;
+ }
 
-  .box img{
-    width: 180px;
-    margin-top: -400px;
-    margin-right: 100px;
-  }
-
+ 
   .cont{
     margin-top: -260px;
+    
   }
- 
- .background .david p{
-   position: absolute;
-   font-size: 20px;
-   top: 20%;
-   left: 28%;
-   text-align: center;
- }
-.background .david p::first-letter{
-  font-size: 50px;
-}
-  .webdeveloper p{
-    position: absolute;
-    left: 24%;
-    font-size: 20px;
-    text-align: left;
-    top: 28%;
+  .name{
+    margin-left: 65px;
+   text-align: right;
+   letter-spacing: 5px;
+   padding: 1mm;
+  }
 
+  .box2{
+    width: 300px;
+    margin-left: 10px;
+    min-width: 350px;
   }
+  
+  
+ 
 }
